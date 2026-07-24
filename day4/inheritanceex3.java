@@ -12,6 +12,7 @@ class Anima{
     }
 }
 class dog extends Anima{
+    //method overriding just happened here.
     public void display(){
         System.out.println("This is the child/sub-class ");
         super.display();
