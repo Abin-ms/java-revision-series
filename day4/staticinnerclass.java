@@ -1,25 +1,15 @@
-    package day4;
+package day4;
 
-    class staticinnerclass {
-        public static void main(String[] args){
-            motherboard.USB uu = new motherboard.USB();
-            uu.setNum(2, 3);
-            System.out.println("Total number of USB ports is : "+uu.getTotal());
+public class staticinnerclass {
+    public class Main {
+   public static void main(String[] args) {
 
-        }
-    }
+       // create an object of the static nested class
+       // using the name of the outer class
+       MotherBoard.USB usb = new MotherBoard.USB();
+       System.out.println("Total Ports = " + usb.getTotalPorts());
+   }
+}
+}
 
-    class motherboard{
-        static class USB {
-            int USB1;
-            int USB2;
-            public void setNum(int USB1,int USB2){
-            this.USB1 = USB1;
-            this.USB2 = USB2;
-        }
-        public int getTotal(){
-            return USB1 + USB2;
-        }
-        }
-        
-    }
+
