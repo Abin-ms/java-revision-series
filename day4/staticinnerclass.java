@@ -3,6 +3,7 @@
     class staticinnerclass {
         public static void main(String[] args){
             motherboard.USB uu = new motherboard.USB();
+            uu.setNum(2, 3);
             System.out.println("Total number of USB ports is : "+uu.getTotal());
 
         }
