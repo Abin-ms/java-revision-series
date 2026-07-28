@@ -13,7 +13,9 @@ class aaa {
     String hh;
 
     aaa(int r, String h) {
+        System.out.println("executing");
         rr = r;
         hh = h;
+
     }
 }

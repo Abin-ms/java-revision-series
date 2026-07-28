@@ -7,5 +7,7 @@ public class prrintt {
    System.out.println("Enter an integer");
    int number = input.nextInt();
    System.out.println("printing the value of number:"+number);
+   input.close();
     }
+    
 }
