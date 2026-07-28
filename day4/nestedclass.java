@@ -1,6 +1,6 @@
 package day4;
 
-class innerclassex1 {
+class nestedclass {
     public static void main(String[] args) {
         phone pp = new phone();
         phone.display dd = pp.new display();

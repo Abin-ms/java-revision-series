@@ -13,13 +13,16 @@
         static class USB {
             int USB1;
             int USB2;
-            public void setNum(int USB1,int USB2){
+
+        public void setNum(int USB1,int USB2){
             this.USB1 = USB1;
             this.USB2 = USB2;
         }
+        
         public int getTotal(){
             return USB1 + USB2;
         }
         }
         
     }
+    //inner class is also known as static nested class /nested static class
