@@ -12,6 +12,7 @@ public class staticinnerclass {
 }
 
 class MotherBoard {
+    int num;
 
    // static nested class
    static class USB{
