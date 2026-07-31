@@ -29,8 +29,11 @@ public class arraylistextest {
         students.remove("Sam");
         System.out.println(students);
 
-        for(int i=1;i<=students.size();i++){
+        for(int i=0;i<students.size();i++){
            System.out.println(students.get(i));
+        }
+        for(String student : students){
+            System.out.println(students);
         }
         if(students.contains("Rahul")){
         System.out.println("Rahul is present in the list");
