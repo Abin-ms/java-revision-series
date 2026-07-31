@@ -1,3 +1,5 @@
+//first characterstic of list : maintains insertion order ; the list will be exactly in the order of insertion.
+
 package day6;
 
 import java.util.*;
