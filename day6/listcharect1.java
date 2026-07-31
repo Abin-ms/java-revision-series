@@ -5,7 +5,7 @@ package day6;
 import java.util.*;
 import java.util.ArrayList;
 
-public class listex1 {
+public class listcharect1 {
     public static void main(String[] args){
 
         List<String> list = new ArrayList<>();
