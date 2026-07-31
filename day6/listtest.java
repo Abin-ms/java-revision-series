@@ -1,4 +1,5 @@
 package day6;
+
 import java.util.*;
 public class listtest {
     public static void main(String[] args){

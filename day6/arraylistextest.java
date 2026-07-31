@@ -33,7 +33,7 @@ public class arraylistextest {
            System.out.println(students.get(i));
         }
         for(String student : students){
-            System.out.println(students);
+            System.out.println(student);
         }
         if(students.contains("Rahul")){
         System.out.println("Rahul is present in the list");
