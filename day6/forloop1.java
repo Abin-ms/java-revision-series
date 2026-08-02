@@ -28,5 +28,16 @@ public class forloop1 {
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
+
+        System.out.println("Printing using Listiterator - forward");
+        ListIterator<String> litr = list.listIterator();
+        while(litr.hasNext()){
+            System.out.println(litr.next());
+        }
+
+        System.out.println("Printing using Listiterator - backward");
+        while(litr.hasPrevious()){
+            System.out.println(litr.previous());
+        }
     }
 }
