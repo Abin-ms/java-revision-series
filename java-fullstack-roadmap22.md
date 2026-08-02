@@ -157,16 +157,16 @@ The base roadmap above makes you *employable*. This phase is what makes you *in-
 
 ## Rough Timeline
 
-| Phase | Duration | Cumulative |
-|---    |--       -|--         -|
-| Java Foundations | 3-4 weeks | 4 weeks |
-| Advanced Java & Tools | 2-3 weeks | 7 weeks |
-| Databases & SQL | 2 weeks | 9 weeks |
-| Spring/Spring Boot | 4-5 weeks | 14 weeks |
-| Frontend | 4-5 weeks | 19 weeks |
-| Integration & DevOps | 2-3 weeks | 22 weeks |
-| System Design & Interview Prep | 3-4 weeks (parallel with job applications) | 26 weeks |
-| 2026 Differentiators (Phase 8) | 3-4 weeks | 30 weeks |
+| Phase                          |Duration                                    | Cumulative|
+|--------------------------------|--------------------------------------------|-----------|
+| Java Foundations               | 3-4 weeks                                  | 4 weeks   |
+| Advanced Java & Tools          | 2-3 weeks                                  | 7 weeks   |
+| Databases & SQL                | 2 weeks                                    | 9 weeks   |
+| Spring/Spring Boot             | 4-5 weeks                                  | 14 week   |
+| Frontend                       | 4-5 weeks                                  | 19 week   |
+| Integration & DevOps           | 2-3 weeks                                  | 22 weeks  |
+| System Design & Interview Prep | 3-4 weeks (parallel with job applications) | 26 weeks  |
+| 2026 Differentiators (Phase 8) | 3-4 weeks                                  | 30 weeks  |
 
 **Total: ~7 months** of consistent, focused study (assuming 15-20 hrs/week). Faster if full-time, slower if part-time — the sequence matters more than the exact timeline. The extra month for Phase 8 is the difference between a resume that gets screened out and one that gets a callback.
 
