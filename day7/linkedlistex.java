@@ -1,5 +1,6 @@
 package day7;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class linkedlistex {
@@ -11,6 +12,14 @@ public class linkedlistex {
         movies.add("Arrival");
         movies.add("Kill bill");
         movies.add("Pulp Fiction");
-        
+
+        System.out.println("Inital Print");
+        Iterator<String> itr = movies.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+
+        System.out.println("Adding one element at the first");
+        movies.addFirst("Thanmathra");
     }
 }
