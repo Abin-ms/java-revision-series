@@ -25,5 +25,12 @@ public class linkedlistex {
         for(int i = 0 ; i < movies.size() ; i++){
             System.out.println(movies.get(i));
         }
+
+        System.out.println("Adding an element at the end");
+        movies.addLast("Thaniavarthanm");
+
+        for(String movie : movies){
+               System.out.println(movie);
+        }
     }
 }
