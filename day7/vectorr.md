@@ -1,21 +1,8 @@
-Awesome! 🔥
-
-You've completed:
-
-* ✅ Collections Introduction
-* ✅ List Interface
-* ✅ ArrayList
-* ✅ LinkedList
-
-Now let's move to **Vector**.
-
----
 
 # Topic 6: Vector
 
 ## Lesson Plan
 
-Today we'll cover:
 
 1. What is Vector?
 2. Why was it introduced?
@@ -463,6 +450,19 @@ Why?
 
 ---
 
+
+
+# 🧠 Interview Corner
+
+Here's a question that interviewers love:
+
+> **Interviewer:** "If Vector is thread-safe, why don't we always use it?"
+
+A strong answer would be:
+
+> "Because synchronization adds overhead. Most applications don't need every operation to be synchronized, so `ArrayList` is preferred for better performance. If thread safety is required, modern Java often uses specialized concurrent collections instead of `Vector`."
+
+---
 # Coding Assignment
 
 Create a class named **VectorDemo**.
@@ -495,30 +495,3 @@ Requirements:
 
 ---
 
-# 🧠 Interview Corner
-
-Here's a question that interviewers love:
-
-> **Interviewer:** "If Vector is thread-safe, why don't we always use it?"
-
-A strong answer would be:
-
-> "Because synchronization adds overhead. Most applications don't need every operation to be synchronized, so `ArrayList` is preferred for better performance. If thread safety is required, modern Java often uses specialized concurrent collections instead of `Vector`."
-
----
-
-## Before You Code
-
-Let me ask you one final question.
-
-Suppose you're building a **banking system** where multiple threads may update a shared transaction list at the same time.
-
-Which would you choose?
-
-**A)** ArrayList
-
-**B)** Vector
-
-And **why?**
-
-Think about synchronization and thread safety before answering. This reasoning will help you much more than memorizing definitions.
