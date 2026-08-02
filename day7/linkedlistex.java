@@ -34,5 +34,19 @@ public class linkedlistex {
         }
 
         System.out.println("First movie is : "+movies.getFirst()+ "\nLast movie is : "+movies.getLast());
+
+        System.out.println("Removing the first movie");
+        movies.removeFirst();
+        System.out.println("Removed the first element");
+
+        System.out.println("Removing the last movie");
+        movies.removeLast();
+        System.out.println("Removed the last element");
+
+
+         System.out.println("Printing using a for-each loop");
+        for(String movie : movies){
+               System.out.println(movie);
+        }
     }
 }
