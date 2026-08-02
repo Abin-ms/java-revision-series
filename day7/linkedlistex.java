@@ -21,5 +21,9 @@ public class linkedlistex {
 
         System.out.println("Adding one element at the first");
         movies.addFirst("Thanmathra");
+
+        for(int i = 0 ; i < movies.size() ; i++){
+            System.out.println(movies.get(i));
+        }
     }
 }
