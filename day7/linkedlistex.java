@@ -32,5 +32,7 @@ public class linkedlistex {
         for(String movie : movies){
                System.out.println(movie);
         }
+
+        System.out.println("First movie is : "+movies.getFirst()+ "\nLast movie is : "+movies.getLast());
     }
 }
