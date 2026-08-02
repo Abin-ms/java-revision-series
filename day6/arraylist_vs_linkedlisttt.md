@@ -1,18 +1,6 @@
-Perfect! 🔥 Now we begin what I consider the **most important comparison in the Collections Framework**.
 
-# Topic 5: LinkedList
-
-Today, you're not just going to learn `LinkedList`. You're going to understand **why Java has both `ArrayList` and `LinkedList`**.
-
-By the end of this lesson, you'll be able to answer one of the most common interview questions:
-
-> **"When would you choose ArrayList over LinkedList?"**
-
----
 
 # Lesson Plan
-
-We'll cover:
 
 1. Why LinkedList was introduced
 2. What is LinkedList?
