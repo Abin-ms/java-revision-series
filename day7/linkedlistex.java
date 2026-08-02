@@ -48,5 +48,7 @@ public class linkedlistex {
         for(String movie : movies){
                System.out.println(movie);
         }
+
+        System.out.println("Total number of movies is : "+movies.size());
     }
 }
