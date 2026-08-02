@@ -39,5 +39,9 @@ public class forloop1 {
         while(litr.hasPrevious()){
             System.out.println(litr.previous());
         }
+
+        System.out.println("printing using lambda forEach()");
+        list.forEach(city -> System.out.println(city));
+
     }
 }
