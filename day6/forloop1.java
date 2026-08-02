@@ -23,5 +23,10 @@ public class forloop1 {
         }
 
         System.out.println("Printing using iterator");
+        Iterator<String> itr = list.iterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
     }
 }
