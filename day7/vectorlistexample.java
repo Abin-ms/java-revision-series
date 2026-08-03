@@ -10,5 +10,7 @@ public class vectorlistexample {
         vlist.add("item2");
         vlist.add("item3");
         vlist.add("item4");
+
+        System.out.println(vlist);
     }
 }
