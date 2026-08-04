@@ -21,6 +21,18 @@ public class vectorr_testexample {
 
         list.remove("Python");
 
+        System.out.println("Python is removed : " +list);
+
+        System.out.println("Printing using normal for loop");
+        for(int i = 0 ; i < list.size() ; i++){
+            System.out.println(list.get(i));
+        }
+
+        System.out.println("printing using enhanced for loop : ");
+        for(String li : list){
+            System.out.println(li);
+        }
+
         
     }
 }
