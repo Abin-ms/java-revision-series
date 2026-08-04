@@ -12,5 +12,9 @@ public class StackDemo {
         books.push("Revise Collections");
 
         System.out.println(books);
+        System.out.println( books.peek());
+
+        System.out.println("Removing the element at the top : "+books.pop());
+        
     }
 }
