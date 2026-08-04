@@ -490,3 +490,45 @@ Say:
 That distinction shows you actually understand `ArrayList`.
 
 At this point you understand the important internal behavior of **ArrayList**. The next logical topic is **iteration techniques (`for`, enhanced `for`, `Iterator`, `ListIterator`, `forEach`)**, and after that we can move into **LinkedList**, where we'll compare its internal structure directly against ArrayList.
+
+
+----
+
+
+# Interview Question
+
+```java
+Vector<String> v = new Vector<>();
+
+v.add("A");
+
+v.add("B");
+
+v.add("C");
+```
+
+What is the output?
+
+```java
+System.out.println(v.capacity());
+```
+
+Can you answer?
+
+---
+
+# Another Interview Question
+
+What is the difference between
+
+```java
+v.size();
+```
+
+and
+
+```java
+v.capacity();
+```
+
+---
