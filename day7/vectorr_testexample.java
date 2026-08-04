@@ -8,6 +8,8 @@ public class vectorr_testexample {
         Vector<String> list = new Vector<>(Arrays.asList("Java","Python","C++","Javascript","GO"));
 
         System.out.println(list);
+
+        list.add(2,"Kotlin");
         
     }
 }
