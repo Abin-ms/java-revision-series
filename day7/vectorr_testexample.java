@@ -1,6 +1,7 @@
 package day7;
 
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.Vector;
 
 public class vectorr_testexample {
@@ -32,6 +33,20 @@ public class vectorr_testexample {
         for(String li : list){
             System.out.println(li);
         }
+
+        Iterator<String> itr = list.iterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+            
+        }
+
+        System.out.println("printing the first element : "+list.firstElement());
+
+        System.out.println("printing the last element"+list.lastElement());
+
+        System.out.println("Total number of elements is : "+list.size());
+
 
         
     }
