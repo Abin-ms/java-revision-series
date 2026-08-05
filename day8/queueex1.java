@@ -12,5 +12,14 @@ public class queueex1 {
         qlist.add("John");
         qlist.add("Peter");
         qlist.add("Steve");
+
+        System.out.println("First customer : "+qlist.peek());
+        qlist.poll();
+        qlist.poll();
+        System.out.println("Removed two customers using poll()");
+        System.out.println("Updated queue : " +qlist);
+        
+
+
     }
 }
