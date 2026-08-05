@@ -18,7 +18,11 @@ public class queueex1 {
         qlist.poll();
         System.out.println("Removed two customers using poll()");
         System.out.println("Updated queue : " +qlist);
-        
+
+        qlist.offer("David");
+        System.out.println("The updated queue : "+qlist);
+
+        System.out.println("Size of the queue is : "+qlist.size());
 
 
     }

@@ -34,5 +34,7 @@ public class listtest {
         list.clear();
         System.out.println(list);
 
+        
+
     }
 }
