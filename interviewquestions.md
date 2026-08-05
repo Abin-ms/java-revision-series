@@ -532,3 +532,5 @@ v.capacity();
 ```
 
 ---
+
+![alt text](image-15.png)
