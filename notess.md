@@ -214,3 +214,6 @@ why cant we create an object of list.
 
 ![alt text](image-13.png)
 
+---
+till 5/08/26
+![alt text](image-16.png)
