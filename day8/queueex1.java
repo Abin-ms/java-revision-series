@@ -4,9 +4,9 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class queueex1 {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Queue<String> qlist = new LinkedList<>();
-        
+
         qlist.add("Abin");
         qlist.add("Rahul");
         qlist.add("John");
@@ -14,21 +14,20 @@ public class queueex1 {
         qlist.add("Steve");
         System.out.println("Initial Queue : " + qlist);
 
-        System.out.println("First customer : "+qlist.peek());
+        System.out.println("First customer : " + qlist.peek());
         qlist.poll();
         qlist.poll();
         System.out.println("Removed two customers using poll()");
-        System.out.println("Updated queue : " +qlist);
+        System.out.println("Updated queue : " + qlist);
 
         qlist.offer("David");
-        System.out.println("The updated queue : "+qlist);
+        System.out.println("The updated queue : " + qlist);
 
-        System.out.println("Size of the queue is : "+qlist.size());
+        System.out.println("Size of the queue is : " + qlist.size());
 
         while (!qlist.isEmpty()) {
             System.out.println(qlist.poll());
         }
-
 
     }
 }
