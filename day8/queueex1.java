@@ -24,6 +24,10 @@ public class queueex1 {
 
         System.out.println("Size of the queue is : "+qlist.size());
 
+        while (qlist.size()!=0) {
+            System.out.println(qlist.poll());
+        }
+
 
     }
 }
