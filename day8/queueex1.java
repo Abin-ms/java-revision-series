@@ -12,6 +12,7 @@ public class queueex1 {
         qlist.add("John");
         qlist.add("Peter");
         qlist.add("Steve");
+        System.out.println("Initial Queue : " + qlist);
 
         System.out.println("First customer : "+qlist.peek());
         qlist.poll();
@@ -24,7 +25,7 @@ public class queueex1 {
 
         System.out.println("Size of the queue is : "+qlist.size());
 
-        while (qlist.size()!=0) {
+        while (!qlist.isEmpty()) {
             System.out.println(qlist.poll());
         }
 
