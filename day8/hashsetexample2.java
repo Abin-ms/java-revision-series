@@ -14,6 +14,7 @@ public class hashsetexample2 {
         System.out.println("Hashset : "+language);
 
         HashSet <String> language2 = new HashSet<>();
+        language2.add("GO");
         //using addAll() method.
         language2.addAll(language);
 
