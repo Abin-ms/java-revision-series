@@ -9,5 +9,10 @@ public class LinkedHashSetDemo {
 
         sett.add("Interstellar");
         sett.add("Inception");
+        sett.add("The Dark Knight");
+        sett.add("Interstellar");
+        sett.add("Tenet");
+
+        System.out.println(sett);
     }
 }
