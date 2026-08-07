@@ -53,7 +53,11 @@ public boolean equals(Object obj){
 public int hashCode(){
     return java.util.Objects.hash(id,name);
 }
-
+@Override
+public String toString() {
+    return "Student{id=" + id +
+           ", name='" + name + "'}";
+}
 
 }
 
