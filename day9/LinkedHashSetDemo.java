@@ -1,5 +1,6 @@
 package day9;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -30,5 +31,12 @@ public class LinkedHashSetDemo {
         }
 
         System.out.println("Printing using iterator");
+        Iterator <String> itr = sett.iterator();
+
+        while (itr.hasNext()) {
+
+            System.out.print(itr.next()+" ,");
+            
+        }
     }
 }
