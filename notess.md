@@ -217,3 +217,7 @@ why cant we create an object of list.
 ---
 till 5/08/26
 ![alt text](image-16.png)
+
+
+----
+![alt text](image-17.png)
