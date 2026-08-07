@@ -22,7 +22,7 @@ Phase 1 : Core Java Fundamentals ✅ COMPLETED
 
 -------------------------------------------------------
 
-Phase 2 : Collections Framework 🚀 (CURRENT)
+Phase 2 : Collections Framework  (CURRENT)
 
 Collection Framework
 │
