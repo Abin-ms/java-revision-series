@@ -23,5 +23,12 @@ public class LinkedHashSetDemo {
         System.out.println("Inception removed : "+sett.remove("Inception"));
 
         System.out.println("Updated set : "+sett);
+
+        System.out.println("Printing using enhanced for loop : ");
+        for(String se : sett){
+            System.out.print(se+", ");
+        }
+
+        System.out.println("Printing using iterator");
     }
 }
