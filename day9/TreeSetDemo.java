@@ -23,10 +23,11 @@ public class TreeSetDemo {
         System.out.println("using ceiling method : " + numbers.ceiling(76));
         System.out.println("using floor function : " + numbers.floor(76));
 
-        if (numbers.contains(85))
-            numbers.remove(85);
-        if (!numbers.contains(85))
-            System.out.println("85 is deleted.");
+        if(numbers.remove(85)){
+            System.out.println("85 is removed.");
+        }
+        else
+            System.out.println("85 is not removed");
 
         System.out.println("Updated set : " + numbers);
 
