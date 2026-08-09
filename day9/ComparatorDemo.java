@@ -12,7 +12,16 @@ public class ComparatorDemo {
         public int compare(Student s1, Student s2) {
             return s1.name.compareTo(s2.name);
         }
+
+        
     };
+    // Comparator<Student> byId = new Comparator<Student>() {
+            
+    //         @Override
+    //         public int compare(Student s1 , Student s2) {
+    //             return s1.id.compareTo(s2.id);
+    //         }
+    //     };
 
         TreeSet<Student> students = new TreeSet<>(byName);
         students.add(new Student(103, "John"));
