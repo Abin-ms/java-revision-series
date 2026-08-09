@@ -34,7 +34,7 @@ public class comparatormodified {
 
         System.out.println("By name\n" + studentsByName);
         System.out.println("By id : \n" + studentsById);
-        System.out.println("By name ascending : \n" + studentsBydescName);
+        System.out.println("By name descending : \n" + studentsBydescName);
 
     }
 }
