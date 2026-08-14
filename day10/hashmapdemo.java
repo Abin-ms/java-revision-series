@@ -13,18 +13,16 @@ public class hashmapdemo {
         students.put(104, "Sulu");
 
         System.out.println(students);
-         
-        System.out.println( students.get(102));
+
+        System.out.println(students.get(102));
         System.out.println(students.remove(103));
-        System.out.println("Students hasmap updated version : "+students);
-       
-            System.out.println("Students hasmap updated version : "+students.containsKey(101));
-            System.out.println(students);
-            System.out.println("hashmap have the value Rahul : "+students.containsValue("Rahul"));
+        System.out.println("Students hasmap updated version : " + students);
 
-            System.out.println("Total size of the hashmap : "+students.size());
-        
+        System.out.println("Students hasmap updated version : " + students.containsKey(101));
+        System.out.println(students);
+        System.out.println("hashmap have the value Rahul : " + students.containsValue("Rahul"));
 
-       
+        System.out.println("Total size of the hashmap : " + students.size());
+
     }
 }
