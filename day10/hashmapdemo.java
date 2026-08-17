@@ -11,6 +11,9 @@ public class hashmapdemo {
         students.put(102, "Rahul");
         students.put(103, "Jibin");
         students.put(104, "Sulu");
+        students.put(101, "Jhon");
+        students.put(105, "Abin");
+
 
         System.out.println(students);
 
@@ -23,6 +26,11 @@ public class hashmapdemo {
         System.out.println("hashmap have the value Rahul : " + students.containsValue("Rahul"));
 
         System.out.println("Total size of the hashmap : " + students.size());
+           
 
+        
+        System.out.println(students);
+
+        System.out.println(students.get(999));
     }
 }
