@@ -7,7 +7,7 @@ public class treemapdemo3{
     public static void main(String[] args) {
 
         // Comparator<Student1> byName =
-        //         (s1, s2) -> s1.name.compareTo(s2.name);
+        // (s1, s2) -> s1.name.compareTo(s2.name);
         Comparator<Student1> byId = 
              (s1,s2) -> Integer.compare(s1.id, s2.id);
 
