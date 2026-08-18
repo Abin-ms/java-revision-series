@@ -17,5 +17,6 @@ public class uppboundex {
             System.out.println(n);
         }
         System.out.println();
+        // list.add(100);
     }
 }
