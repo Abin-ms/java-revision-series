@@ -2,7 +2,7 @@ package day11.widcards;
 
 import java.util.*;
 
-public class widcardsea1 {
+public class widcardex1 {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("Abin", "Jibin", "Sulu");
 
