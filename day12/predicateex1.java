@@ -2,7 +2,7 @@ package day12;
 
 import java.util.function.Predicate;
 
-public class lambdaex1 {
+public class predicateex1 {
     public static void main(String[] args){
            Predicate<Integer> isEven = n -> n % 2 == 0;
 
