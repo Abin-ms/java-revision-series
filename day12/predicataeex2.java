@@ -1,4 +1,4 @@
-package day12;
+
 
 import java.util.function.Predicate;
 

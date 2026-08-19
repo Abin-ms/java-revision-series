@@ -1,4 +1,4 @@
-package day12;
+
 
 public class lambdausingfninterface {
     public static void main(String[] args) {
