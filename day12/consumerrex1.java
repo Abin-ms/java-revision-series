@@ -1,3 +1,4 @@
+//Example for consumer<T> functional interface
 import java.util.function.Consumer;
 
 public class consumerrex1 {
