@@ -8,7 +8,7 @@ public class streamapiex1 {
         List<Integer> numbers = Arrays.asList(5, 12, 18, 21, 30, 33, 40);
 
         numbers.stream()
-                .filter(n -> n > 20)
+                .filter(n -> n > 20 && n % 2 == 0)
                 .forEach(n -> System.out.println(n));
 
     }
