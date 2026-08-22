@@ -1,7 +1,11 @@
 package day14;
 
 public class gegege {
+
+    int a = 10;
+    float b = 30;
+
     
-    int a,b,c=10,20.30;
+
     
 }
