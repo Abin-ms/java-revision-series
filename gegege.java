@@ -8,6 +8,8 @@ public class gegege {
         System.out.println(a);
         System.out.println(b);
 
+        System.out.println("Enter a number bruuhhh");
+
     }
 
 }
