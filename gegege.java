@@ -5,6 +5,9 @@ public class gegege {
         int a = 10;
         float b = 30;
 
+        System.out.println(a);
+        System.out.println(b);
+
     }
 
 }
