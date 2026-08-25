@@ -83,3 +83,72 @@ String city = Optional.ofNullable(user)
 
 * **Handling Legacy API Returns:** When calling third-party libraries or standard methods that might return `null`.
 
+---
+Here are direct side-by-side examples showing when to use `Optional.of()` versus `Optional.ofNullable()`.
+
+---
+
+**1. `Optional.of()**`
+Use this when you are **100% certain** the value is not `null`. If a `null` value is passed, it throws a `NullPointerException` immediately at the point of creation.
+
+```java
+import java.util.Optional;
+
+public class OfExample {
+    public static void main(String[] args) {
+        String greeting = "Hello, Java!";
+
+        // Safe because greeting is guaranteed not to be null
+        Optional<String> opt = Optional.of(greeting);
+        System.out.println(opt.get()); // Outputs: Hello, Java!
+
+        // DANGER: Passing null to of() causes a crash
+        String nullName = null;
+        Optional<String> crashOpt = Optional.of(nullName); // Throws NullPointerException!
+    }
+}
+
+```
+
+---
+
+**2. `Optional.ofNullable()**`
+Use this when the value **might be `null**`. It safely wraps non-null values and produces an empty `Optional` when receiving `null`.
+
+```java
+import java.util.Optional;
+
+public class OfNullableExample {
+    public static void main(String[] args) {
+        String value = getDatabaseUser(); // Might return "Alice" or null
+
+        // Safe: Handles both non-null values and null without throwing an exception
+        Optional<String> userOpt = Optional.ofNullable(value);
+
+        // Fallback to "DefaultUser" if value was null
+        String username = userOpt.orElse("DefaultUser");
+        System.out.println("User: " + username);
+    }
+
+    private static String getDatabaseUser() {
+        return null; // Simulating a missing record
+    }
+}
+
+```
+
+---
+
+**Key Difference in Action**
+
+```java
+String input = null;
+
+// Throws java.lang.NullPointerException
+Optional<String> opt1 = Optional.of(input); 
+
+// Returns Optional.empty() safely, no exception thrown
+Optional<String> opt2 = Optional.ofNullable(input); 
+
+```
+
