@@ -17,3 +17,4 @@ public class streamapiex9 {
     }
 }
 //huhhh
+//kiruhhhhuu
