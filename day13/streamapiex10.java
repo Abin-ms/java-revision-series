@@ -9,7 +9,7 @@ public class streamapiex10 {
         List<Integer> numbers = Arrays.asList(10, 15, 20, 25, 30, 35);
 
         Optional<Integer> result = numbers.stream()
-                .filter(n -> n > 20) 
+                .filter(n -> n > 20) //use -  .filter( n -> n > 100)   ( it will give "optional.empty")
                 .findFirst();
 
         System.out.println(result);
