@@ -221,3 +221,9 @@ till 5/08/26
 
 ----
 ![alt text](image-17.png)
+
+
+
+# java exception handling best notes
+
+https://www.geeksforgeeks.org/java/exceptions-in-java/
