@@ -9,6 +9,7 @@ public class gegege {
         System.out.println(b);
 
         System.out.println("Enter a number bruuhhh");
+        System.out.println();
 
     }
 
