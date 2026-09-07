@@ -92,3 +92,95 @@ JAVA REVISION SERIES
     ├── Java Interview Questions
     ├── System Design Basics
     └── Final Revision
+
+
+
+----
+
+`
+
+### 🧠 Key difference — remember this
+
+| Method             | Purpose                                                       |
+| ------------------ | ------------------------------------------------------------- |
+| `groupingBy()`     | Creates groups based on a key — potentially many groups       |
+| `partitioningBy()` | Splits elements into exactly **2 groups**: `true` and `false` |
+
+For example:
+
+```java
+groupingBy(n -> n % 3)
+```
+
+can produce:
+
+```text
+0 → ...
+1 → ...
+2 → ...
+```
+
+Whereas:
+
+```java
+partitioningBy(n -> n % 2 == 0)
+```
+
+produces only:
+
+```text
+true  → even
+false → odd
+```
+
+## 🚀 Next: `joining()`
+
+`joining()` is used to **combine strings from a Stream into one String**.
+
+Example:
+
+```java
+List<String> names = Arrays.asList("Abin", "Rahul", "John");
+
+String result = names.stream()
+        .collect(Collectors.joining());
+
+System.out.println(result);
+```
+
+Output:
+
+```text
+AbinRahulJohn
+```
+
+You can also provide a separator:
+
+```java
+String result = names.stream()
+        .collect(Collectors.joining(", "));
+
+System.out.println(result);
+```
+
+Output:
+
+```text
+Abin, Rahul, John
+```
+
+And even prefix + suffix:
+
+```java
+String result = names.stream()
+        .collect(Collectors.joining(", ", "[", "]"));
+
+System.out.println(result);
+```
+
+Output:
+
+```text
+[Abin, Rahul, John]
+```
+
