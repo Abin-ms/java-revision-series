@@ -184,3 +184,7 @@ Output:
 [Abin, Rahul, John]
 ```
 
+
+----
+
+![alt text](image.png)
