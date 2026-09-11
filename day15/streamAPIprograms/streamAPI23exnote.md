@@ -2,12 +2,12 @@
  
 
 ### code 
+~~~[]
 package day15.streamAPIprograms;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.OptionalDouble;
-
 public class streamAPIex23 {
 
     public static void main(String[] args) {
@@ -20,11 +20,9 @@ public class streamAPIex23 {
                 .average();
 
         System.out.println(result);
-
     }
 }
-
----
+~~~
 
 
 program's goal is:
