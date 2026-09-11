@@ -2,6 +2,7 @@ package day15.streamAPIprograms;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class streamAPIex24 {
 
@@ -32,6 +33,10 @@ public class streamAPIex24 {
                 .toList();
 
                result.forEach( n -> System.out.println(n.name));
+
+
+               Optional<Employee> result2 = employees.stream()
+               .max((n1 , n2) -> Double.compare(n1.salary, n2.salary));
 
                
 
