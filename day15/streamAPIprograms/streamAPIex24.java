@@ -12,11 +12,13 @@ public class streamAPIex24 {
             String name;
             String department;
             double salary;
+     
 
             Employee( String name , String department , double salary){
                 this.name = name;
                 this.department = department;
                 this.salary = salary;
+
             }
 
         }
@@ -35,8 +37,11 @@ public class streamAPIex24 {
                result.forEach( n -> System.out.println(n.name));
 
 
+               
                Optional<Employee> result2 = employees.stream()
                .max((n1 , n2) -> Double.compare(n1.salary, n2.salary));
+
+               System.out.println("highest salary is : "+result2.get().salary+ "."+"\nEmployee with highest salary : "+result2.get().name);
 
                
 
