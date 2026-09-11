@@ -14,5 +14,6 @@ public class streamAPIex14 {
                 .collect(Collectors.groupingBy(n -> n % 3));
 
         System.out.println(result);
+        
     }
 }
