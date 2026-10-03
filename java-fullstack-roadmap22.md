@@ -7,6 +7,7 @@ A structured path from basics to job-ready, organized in phases. Each phase list
 ## Phase 1: Programming Foundations (3-4 weeks)
 
 **Core Java**
+
 - Syntax, variables, data types, operators
 - Control flow (if/else, loops, switch)
 - Arrays and Strings
@@ -115,30 +116,36 @@ This is the core of "Java Full Stack" — prioritize deeply.
 The base roadmap above makes you *employable*. This phase is what makes you *in-demand*. As of 2026, hiring managers see the same "CRUD + React + Spring Boot" portfolio project constantly — it no longer stands out on its own. These additions are what separate offers from silence.
 
 **AI-Native Development**
+
 - Get fluent working alongside AI coding assistants (Claude Code, Copilot, etc.) — expected baseline skill now, not a bonus
 - Learn to integrate LLM APIs into a Spring Boot backend (basic RAG pipeline, prompt-driven feature, or AI-assisted search) — even one small feature like this in a portfolio project stands out heavily
 
 **Microservices & Messaging (beyond monolith CRUD)**
+
 - Spring Cloud basics: service discovery, config server, API gateway concepts
 - Message broker experience: **Kafka** or **RabbitMQ** — build at least one async, event-driven feature (e.g., order placed → notification service consumes event)
 - Basic understanding of service-to-service communication patterns and failure handling (circuit breakers — Resilience4j)
 
 **Production-Readiness & Observability**
+
 - Structured logging practices
 - Basic metrics/monitoring: Prometheus + Grafana (even a simple local setup)
 - Health checks and readiness/liveness probes (Spring Boot Actuator)
 - Think and talk like someone who's run something in production, not just built it
 
 **Container Orchestration (light Kubernetes exposure)**
+
 - Beyond Docker: understand pods, deployments, services, basic kubectl usage
 - Deploy one project to a managed K8s service or local cluster (minikube) — doesn't need to be deep, just real
 
 **Testing Depth**
+
 - Integration testing with **Testcontainers** (spin up real DB in tests, not just mocks)
 - Basic contract testing awareness
 - Genuinely practice TDD on at least one feature — be able to speak to it concretely in interviews
 
 **System Design (not just DSA)**
+
 - Practice explaining how you'd design a scalable system (URL shortener, rate limiter, notification system, etc.)
 - This is now common even at mid-level/junior interviews, not just senior ones — don't skip it assuming you're "too junior" for it
 

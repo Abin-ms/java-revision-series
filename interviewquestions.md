@@ -1,8 +1,5 @@
 ![alt text](image-14.png)
 
-
-
-
 These are exactly the **ArrayList interview questions** you should know. I'll explain them so you can understand the reason behind each answer rather than memorize them.
 
 # 1. What is the default capacity of an ArrayList?
@@ -21,7 +18,7 @@ So for interviews, a precise answer is:
 
 > The default initial capacity used when the first element is added is **10**, although a newly constructed empty `ArrayList` does not immediately allocate an array of size 10.
 
-Your roadmap expects you to know collections and their practical behavior. 
+Your roadmap expects you to know collections and their practical behavior.
 
 You can also explicitly specify capacity:
 
@@ -491,9 +488,7 @@ That distinction shows you actually understand `ArrayList`.
 
 At this point you understand the important internal behavior of **ArrayList**. The next logical topic is **iteration techniques (`for`, enhanced `for`, `Iterator`, `ListIterator`, `forEach`)**, and after that we can move into **LinkedList**, where we'll compare its internal structure directly against ArrayList.
 
-
 ----
-
 
 # Interview Question
 
