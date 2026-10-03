@@ -44,6 +44,7 @@ public class streamAPIex24 {
                System.out.println("highest salary is : "+result2.get().salary+ "."+"\nEmployee with highest salary : "+result2.get().name);
 
                
+               
 
     }
 }
