@@ -93,8 +93,6 @@ JAVA REVISION SERIES
     ├── System Design Basics
     └── Final Revision
 
-
-
 ----
 
 `
@@ -183,7 +181,6 @@ Output:
 ```text
 [Abin, Rahul, John]
 ```
-
 
 ----
 

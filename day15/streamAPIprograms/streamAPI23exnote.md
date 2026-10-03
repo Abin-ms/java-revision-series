@@ -1,8 +1,8 @@
 ## breif on the 23 Question / 23 streamexample
- 
 
-### code 
-~~~[]
+### code
+
+```[]
 package day15.streamAPIprograms;
 
 import java.util.Arrays;
@@ -22,8 +22,7 @@ public class streamAPIex23 {
         System.out.println(result);
     }
 }
-~~~
-
+```
 
 program's goal is:
 
@@ -262,8 +261,8 @@ means:
 
 ## Let's trace the filter
 
-| Number | `n % 2` | Condition | Result   |
-| -----: | ------: | --------- | -------- |
+| Number | `n % 2` | Condition | Result    |
+| -----: | ------: | --------- | --------- |
 |     10 |       0 | `0 == 0`  | ✅ Keep   |
 |     15 |       1 | `1 == 0`  | ❌ Remove |
 |     20 |       0 | `0 == 0`  | ✅ Keep   |
@@ -633,4 +632,3 @@ numbers.stream()
 Read it in English:
 
 > **Take the numbers → keep only even numbers → convert them to an IntStream → calculate their average.**
-
