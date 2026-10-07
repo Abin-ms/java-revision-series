@@ -1,9 +1,7 @@
 package day15.streamAPIprograms;
 
 import java.util.Arrays;
-import java.util.IntSummaryStatistics;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class streamAPIex4 {
     public static void main(String[] args) {
