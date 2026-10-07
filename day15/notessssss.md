@@ -1,5 +1,3 @@
----
-
 JAVA REVISION SERIES
 │
 ├── 🟢 PHASE 1 — Java Fundamentals
@@ -96,8 +94,6 @@ JAVA REVISION SERIES
     └── Final Revision
 
 ----
-
-
 
 ### 🧠 Key difference — remember this
 
