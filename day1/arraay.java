@@ -8,6 +8,6 @@ public class arraay {
     }
 System.out.println(sum);
 int avg = sum/(array.length);
-System.out.println(avg);
+System.out.println(avg );
  }   
 }
