@@ -36,5 +36,7 @@ public class pg18two {
             Thread.currentThread().interrupt();
         }
 
+        System.out.println("final Balance : "+gg.balance);
+
     }
 }
