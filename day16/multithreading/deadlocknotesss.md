@@ -1,7 +1,10 @@
 ![alt text](image.png)
 ---
 
-```[deadlock demonstration example:]
+```[]
+//deadlock demonstration example:
+
+
 package day16.multithreading;
 
 public class pg19 {
@@ -51,7 +54,10 @@ public class pg19 {
 ```
 ---
 
-```[deadlock prevention , by Maintaining Lock Order:]
+```[]
+     
+    //deadlock prevention , by Maintaining Lock Order:
+
     package day16.multithreading;
 
     public class Deadlockpreventionpg20 {
