@@ -119,3 +119,7 @@ public class pg19 {
 
 
 ![alt text](image-3.png)
+
+## Deadlock prevention notes : 
+
+https://www.geeksforgeeks.org/operating-systems/deadlock-prevention/
