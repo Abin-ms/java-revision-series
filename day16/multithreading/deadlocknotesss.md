@@ -123,3 +123,13 @@ public class pg19 {
 ## Deadlock prevention notes : 
 
 https://www.geeksforgeeks.org/operating-systems/deadlock-prevention/
+
+---
+### Thread safety in java :
+
+![alt text](image-4.png)
+
+- using volatile (notes):
+
+https://www.geeksforgeeks.org/java/volatile-keyword-in-java/
+
