@@ -14,6 +14,7 @@ ArrayList<String> list = new ArrayList<>();
 
 in modern Java, the internal storage initially uses an **empty array**. On the **first element addition**, it grows to a capacity of **10**.
 
+
 So for interviews, a precise answer is:
 
 > The default initial capacity used when the first element is added is **10**, although a newly constructed empty `ArrayList` does not immediately allocate an array of size 10.
